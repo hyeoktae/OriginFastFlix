@@ -87,6 +87,7 @@ final class APICenter {
     return token
   }
   
+  
   func getMainImgCellData(completion: @escaping (Result<MainImgCellData>) -> ()) {
     let header = getHeader(needSubuser: true)
     
